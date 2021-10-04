@@ -1733,7 +1733,7 @@
                 {
                     "name": "",
                     "frame": 0,
-                    "animate": false,
+                    "animate": true,
                     "spriteSheetId": "ce1260e9-1e88-486c-8322-652d7497d5d5",
                     "spriteType": "static",
                     "direction": "down",
@@ -1765,7 +1765,7 @@
                 {
                     "name": "",
                     "frame": 0,
-                    "animate": false,
+                    "animate": true,
                     "spriteSheetId": "ce1260e9-1e88-486c-8322-652d7497d5d5",
                     "spriteType": "static",
                     "direction": "down",
@@ -1994,7 +1994,7 @@
             "imageHeight": 160,
             "filename": "Startroom.png",
             "inode": "281474976710749",
-            "_v": 1632600911510
+            "_v": 1632619867814
         },
         {
             "id": "4863bb6c-03e7-4075-a32d-bcac4a0eb9d5",
@@ -2005,7 +2005,7 @@
             "imageHeight": 160,
             "filename": "base room.png",
             "inode": "562949953421398",
-            "_v": 1632593517485
+            "_v": 1632619867814
         },
         {
             "id": "68285213-4b20-4905-84d2-36b185b3b1cd",
@@ -2016,7 +2016,7 @@
             "imageHeight": 160,
             "filename": "basic meat dungeon.png",
             "inode": "562949953421406",
-            "_v": 1632606863079
+            "_v": 1632619867796
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -2027,7 +2027,18 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "281474976710698",
-            "_v": 1632593517485
+            "_v": 1632619867796
+        },
+        {
+            "id": "d5870335-a563-4955-a4ee-b368303104ad",
+            "name": "title animated",
+            "width": 40,
+            "height": 20,
+            "imageWidth": 320,
+            "imageHeight": 160,
+            "filename": "title animated.png",
+            "inode": "562949953421412",
+            "_v": 1632620714561
         },
         {
             "id": "75ed5d0d-f2d9-43e3-8d4e-b9be0fcb3e9b",
@@ -2038,10 +2049,19 @@
             "imageHeight": 160,
             "filename": "tutorial room.png",
             "inode": "562949953421402",
-            "_v": 1632597907632
+            "_v": 1632619867814
         }
     ],
     "spriteSheets": [
+        {
+            "id": "75c10908-68e1-45e0-a075-7b4c394af30b",
+            "name": "Bob",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Bob.png",
+            "inode": "562949953421407",
+            "_v": 1632619867814
+        },
         {
             "id": "ee1c29c9-cf00-4860-8576-3088a3730fe2",
             "name": "Ice meat block",
@@ -2049,7 +2069,7 @@
             "type": "static",
             "filename": "Ice meat block.png",
             "inode": "562949953421404",
-            "_v": 1632598104900
+            "_v": 1632619867814
         },
         {
             "id": "ebad3648-4452-45de-b8ab-9897e1e84120",
@@ -2058,7 +2078,7 @@
             "type": "actor",
             "filename": "Mcmeaty\\McMeaty idle.png",
             "inode": "1688849860264003",
-            "_v": 1632593517502
+            "_v": 1632619867814
         },
         {
             "id": "7b827ca7-b677-4194-bfaf-57ccd20b09de",
@@ -2067,7 +2087,7 @@
             "type": "actor_animated",
             "filename": "Mcmeaty\\McMeatyAnimated.png",
             "inode": "562949953421384",
-            "_v": 1632593517502
+            "_v": 1632619867814
         },
         {
             "id": "f0a32e25-043d-40ca-b711-589396368c08",
@@ -2076,7 +2096,7 @@
             "type": "static",
             "filename": "TV.png",
             "inode": "562949953421393",
-            "_v": 1632593517502
+            "_v": 1632619867830
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -2085,7 +2105,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "281474976710702",
-            "_v": 1632593517502
+            "_v": 1632619867814
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -2094,7 +2114,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "281474976710703",
-            "_v": 1632593517502
+            "_v": 1632619867814
         },
         {
             "id": "ce1260e9-1e88-486c-8322-652d7497d5d5",
@@ -2103,7 +2123,7 @@
             "type": "animated",
             "filename": "animated flames.png",
             "inode": "562949953421397",
-            "_v": 1632593517502
+            "_v": 1632619867814
         },
         {
             "id": "c5ccda6c-6d38-4ce8-98bb-5f0ec9c3ff2b",
@@ -2112,7 +2132,7 @@
             "type": "static",
             "filename": "controllers.png",
             "inode": "1407374883553358",
-            "_v": 1632593517502
+            "_v": 1632619867814
         },
         {
             "id": "16cc7b64-2758-48c7-aaa0-f6464301ce05",
@@ -2121,7 +2141,7 @@
             "type": "static",
             "filename": "normal meat cube.png",
             "inode": "562949953421403",
-            "_v": 1632598088673
+            "_v": 1632619867814
         },
         {
             "id": "dbb10188-29c7-4d31-b0b5-6b82af29fdf3",
@@ -2130,7 +2150,7 @@
             "type": "static",
             "filename": "pressure plates.png",
             "inode": "562949953421408",
-            "_v": 1632606390848
+            "_v": 1632619867830
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -2139,7 +2159,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "281474976710704",
-            "_v": 1632593517502
+            "_v": 1632619867830
         }
     ],
     "palettes": [
@@ -2305,7 +2325,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "281474976710700",
-            "_v": 1632593517470
+            "_v": 1632619867770
         }
     ],
     "variables": [],
@@ -2315,9 +2335,9 @@
         "startY": 16,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 40,
-        "worldScrollY": 182,
-        "zoom": 400,
+        "worldScrollX": 451,
+        "worldScrollY": 0,
+        "zoom": 262.5,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
