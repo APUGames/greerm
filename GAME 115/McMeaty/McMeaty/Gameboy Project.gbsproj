@@ -436,7 +436,7 @@
                             "args": {
                                 "text": [
                                     "Your favorite game",
-                                    "Super Meatboy on\nthe Gamecube",
+                                    "Super Meatboy on\nthe Gamecube.",
                                     "Wait"
                                 ],
                                 "avatarId": ""
@@ -483,7 +483,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Its the side of\nyour tv.",
+                                    "It's the side of\nyour tv.",
                                     "It's not plugged\ninto an outlet.",
                                     "It's plugged into\na pile of meat."
                                 ],
@@ -1032,14 +1032,14 @@
                                 "args": {
                                     "text": [
                                         "Hello Mcmeaty.",
-                                        "My names is \nDr. Brocc O. Li.",
+                                        "My name is \nDr. Brocc O. Li.",
                                         "Welcome to my\nunderground lair.",
                                         "I've teleported\nyour entire house\nUNDERGROUND.",
                                         "HAHAHAHAHAHAHA",
                                         "If you want to\nleave you will\nhave to solve my ",
                                         "PUZZLY PUZZLES!",
                                         "HAHAHAHA",
-                                        "Tell you what to\ndo HA ABSOLUTELY\nN-",
+                                        "Tell you what to\ndo? HA ABSOLUTELY\nNO-",
                                         "Sure push that\nblock right there.",
                                         "Over to the\npressure plate\nto the right."
                                     ],
@@ -1223,7 +1223,7 @@
                                                 "TO FREEZE THESE\nTHINGS WITHOUT\nKILLING IT!",
                                                 "Fine you may\nprocced meathead.",
                                                 "But heeds this\nDELI BOY!\n",
-                                                "You need more than\nmuscle to beat my\nMagnificent works"
+                                                "You need more than\nmuscle to beat my\nmagnificent works"
                                             ],
                                             "avatarId": ""
                                         }
@@ -1447,7 +1447,7 @@
                                         "args": {
                                             "text": [
                                                 "Dr.Brock: Hey\nMeathead!",
-                                                "Dr.Brock:Is your\nbrain as small as\na bratwurst?",
+                                                "Dr.Brock: Is your\nbrain as small as\na bratwurst?",
                                                 "Dr. Brock: Finish\nthe puzzle!!!"
                                             ],
                                             "avatarId": ""
@@ -2654,8 +2654,8 @@
                                         "args": {
                                             "text": [
                                                 "Hey Lil Miss\nHamburger.",
-                                                "Is your is your\nbrain covered in\ncheese?",
-                                                "Ya gotta finsh my\nmagnificent\npuzzle first."
+                                                "Is your brain\ncovered in\ncheese?",
+                                                "Ya gotta finsh my\nmagnificent\npuzzles first."
                                             ],
                                             "avatarId": ""
                                         }
@@ -6843,7 +6843,7 @@
             "imageHeight": 160,
             "filename": "Ice Dungeon Room.png",
             "inode": "1688849860264236",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "c8757aed-30fb-4de4-bd6e-4bb77118b54b",
@@ -6854,7 +6854,7 @@
             "imageHeight": 160,
             "filename": "Key room.png",
             "inode": "562949953421630",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "cc8ba9e3-9eca-4d8d-8e4f-4a88513f5521",
@@ -6865,7 +6865,7 @@
             "imageHeight": 160,
             "filename": "Startroom.png",
             "inode": "1125899906842940",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "4863bb6c-03e7-4075-a32d-bcac4a0eb9d5",
@@ -6876,7 +6876,7 @@
             "imageHeight": 160,
             "filename": "base room.png",
             "inode": "562949953421398",
-            "_v": 1635302921790
+            "_v": 1635305849319
         },
         {
             "id": "68285213-4b20-4905-84d2-36b185b3b1cd",
@@ -6887,7 +6887,7 @@
             "imageHeight": 160,
             "filename": "basic meat dungeon.png",
             "inode": "562949953421406",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "2b7ca592-f4de-4d58-a651-3b5a50c3b0ff",
@@ -6898,7 +6898,7 @@
             "imageHeight": 160,
             "filename": "boss room.png",
             "inode": "1407374883553647",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "1f9806fa-1f6d-4bdd-a932-f48b94475eba",
@@ -6909,7 +6909,7 @@
             "imageHeight": 144,
             "filename": "ca_logo_sm.png",
             "inode": "1407374883553644",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "fb00a381-fded-4a0c-9715-6252f601bf7a",
@@ -6920,7 +6920,7 @@
             "imageHeight": 144,
             "filename": "gim_logo_sm.png",
             "inode": "281474976711264",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -6931,7 +6931,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "281474976710698",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "36ea7ce0-35d7-4e72-9ca0-3c05e847eeab",
@@ -6942,7 +6942,7 @@
             "imageHeight": 160,
             "filename": "play again.png",
             "inode": "1688849860264247",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "d5870335-a563-4955-a4ee-b368303104ad",
@@ -6953,7 +6953,7 @@
             "imageHeight": 160,
             "filename": "title animated.png",
             "inode": "562949953421412",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "733c2ab4-724c-44ff-9098-d63baeb131b0",
@@ -6964,7 +6964,7 @@
             "imageHeight": 160,
             "filename": "title.png",
             "inode": "562949953421410",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "75ed5d0d-f2d9-43e3-8d4e-b9be0fcb3e9b",
@@ -6975,7 +6975,7 @@
             "imageHeight": 160,
             "filename": "tutorial room.png",
             "inode": "562949953421402",
-            "_v": 1635302921791
+            "_v": 1635305849319
         },
         {
             "id": "ec1ad236-8865-4ac4-826b-24a880c0c75a",
@@ -6986,7 +6986,7 @@
             "imageHeight": 160,
             "filename": "why.png",
             "inode": "562949953421792",
-            "_v": 1635302921791
+            "_v": 1635305849319
         }
     ],
     "spriteSheets": [
@@ -6997,7 +6997,7 @@
             "type": "static",
             "filename": "Bob.png",
             "inode": "562949953421407",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "29abd40d-78fd-4864-8756-213cb2961ed0",
@@ -7006,7 +7006,7 @@
             "type": "actor",
             "filename": "Dr.BroccO.Lee.png",
             "inode": "562949953421677",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "ee1c29c9-cf00-4860-8576-3088a3730fe2",
@@ -7015,7 +7015,7 @@
             "type": "static",
             "filename": "Ice meat block.png",
             "inode": "562949953421404",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "ebad3648-4452-45de-b8ab-9897e1e84120",
@@ -7024,7 +7024,7 @@
             "type": "actor",
             "filename": "Mcmeaty\\McMeaty idle.png",
             "inode": "1688849860264003",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "7b827ca7-b677-4194-bfaf-57ccd20b09de",
@@ -7033,7 +7033,7 @@
             "type": "actor_animated",
             "filename": "Mcmeaty\\McMeatyAnimated.png",
             "inode": "562949953421384",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "f0a32e25-043d-40ca-b711-589396368c08",
@@ -7042,7 +7042,7 @@
             "type": "static",
             "filename": "TV.png",
             "inode": "562949953421393",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "76b1e4d2-2f87-41e2-98ed-74bf50f01293",
@@ -7051,7 +7051,7 @@
             "type": "actor",
             "filename": "Untitled-1.png",
             "inode": "5910974510924078",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "a89f1d3f-bd14-4c39-bb9d-30be2bfe261f",
@@ -7060,7 +7060,7 @@
             "type": "static",
             "filename": "Untitled-2.png",
             "inode": "844424930132451",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "1d9fc3e2-4ba4-4fcb-bffb-a04de4d2d034",
@@ -7069,7 +7069,7 @@
             "type": "animated",
             "filename": "a.f 2.png",
             "inode": "1125899906842993",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -7078,7 +7078,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "281474976710702",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -7087,7 +7087,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "281474976710703",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "ce1260e9-1e88-486c-8322-652d7497d5d5",
@@ -7096,7 +7096,7 @@
             "type": "animated",
             "filename": "animated flames.png",
             "inode": "562949953421397",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "c5ccda6c-6d38-4ce8-98bb-5f0ec9c3ff2b",
@@ -7105,7 +7105,7 @@
             "type": "static",
             "filename": "controllers.png",
             "inode": "1407374883553358",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "e09d3ef3-abcf-4600-b7f2-63e8ae97a970",
@@ -7114,7 +7114,7 @@
             "type": "static",
             "filename": "hide 2.png",
             "inode": "562949953421796",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "af8f3de5-a85d-4edc-9995-7129df2297e0",
@@ -7123,7 +7123,7 @@
             "type": "static",
             "filename": "hiding.png",
             "inode": "1407374883553761",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "67988bd7-d4fe-4d6b-82ab-29a3249060dd",
@@ -7132,7 +7132,7 @@
             "type": "animated",
             "filename": "meat key animated.png",
             "inode": "3659174697238604",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "4a27d108-fe68-44ad-ac12-326a641f1969",
@@ -7141,7 +7141,7 @@
             "type": "static",
             "filename": "mini bob.png",
             "inode": "562949953421799",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "16cc7b64-2758-48c7-aaa0-f6464301ce05",
@@ -7150,7 +7150,7 @@
             "type": "static",
             "filename": "normal meat cube.png",
             "inode": "562949953421403",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "dbb10188-29c7-4d31-b0b5-6b82af29fdf3",
@@ -7159,7 +7159,7 @@
             "type": "static",
             "filename": "pressure plates.png",
             "inode": "562949953421408",
-            "_v": 1635302921792
+            "_v": 1635305849335
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -7168,7 +7168,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "281474976710704",
-            "_v": 1635302921792
+            "_v": 1635305849335
         }
     ],
     "palettes": [
@@ -7326,7 +7326,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "281474976710700",
-            "_v": 1635302921783
+            "_v": 1635305849307
         }
     ],
     "variables": [
@@ -7377,7 +7377,7 @@
         "startY": 15,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
+        "worldScrollX": 168,
         "worldScrollY": 2,
         "zoom": 100,
         "customColorsEnabled": false,
