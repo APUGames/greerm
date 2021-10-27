@@ -755,25 +755,25 @@
 01:4000 _bank_7_data
 ; Area: _CODE_5
 01:4000 _tileset_bank_ptrs
-01:4006 _background_bank_ptrs
-01:401E _background_attr_bank_ptrs
-01:4039 _palette_bank_ptrs
-01:403C _sprite_bank_ptrs
-01:405D _scene_bank_ptrs
-01:4078 _collision_bank_ptrs
-01:4093 _avatar_bank_ptrs
-01:4096 _music_tracks
-01:409A _music_banks
-01:409C _Start_Adventure
-01:40B1 _Update_Adventure
-01:46B1 _Start_Platform
-01:477D _Update_Platform
-01:535D _Start_PointNClick
-01:5386 _Update_PointNClick
-01:5641 _Start_Shmup
-01:56D1 _Update_Shmup
-01:5C73 _Start_TopDown
-01:5C88 _Update_TopDown
+01:4009 _background_bank_ptrs
+01:4027 _background_attr_bank_ptrs
+01:4048 _palette_bank_ptrs
+01:404B _sprite_bank_ptrs
+01:406C _scene_bank_ptrs
+01:408D _collision_bank_ptrs
+01:40AE _avatar_bank_ptrs
+01:40B1 _music_tracks
+01:40B5 _music_banks
+01:40B7 _Start_Adventure
+01:40CC _Update_Adventure
+01:46CC _Start_Platform
+01:4798 _Update_Platform
+01:5378 _Start_PointNClick
+01:53A1 _Update_PointNClick
+01:565C _Start_Shmup
+01:56EC _Update_Shmup
+01:5C8E _Start_TopDown
+01:5CA3 _Update_TopDown
 ; Area: _SFR0
 00:FF00 _P1_REG
 ; Area: _SFR1

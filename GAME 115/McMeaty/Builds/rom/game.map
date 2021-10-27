@@ -189,8 +189,7 @@ AREA .  .ABS.
 		l__HOME	0252
 		l__GSINIT	0507
 		l__DATA	0E1E
-		l__CODE_5	2091
-		l__CODE_7	21BE
+		l__CODE_5	20AC
 		l__CODE	2C12
 		s__HOME	2E12
 		s__BASE	3064
@@ -200,7 +199,8 @@ AREA .  .ABS.
 		l__CODE_1	35B4
 		s__GSINITTAIL	3789
 		s__GSFINAL	378A
-		l__CODE_6	3FF6
+		l__CODE_7	3D86
+		l__CODE_6	3FEE
 		s__CODE_1	4000
 		s__CODE_4	4000
 		s__CODE_5	4000
@@ -1015,43 +1015,43 @@ AREA _XSEG
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF6
+	SIZE 3FEE
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 21BE
+	SIZE 3D86
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 2091
+	SIZE 20AC
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
-		_background_bank_ptrs	4006
-		_background_attr_bank_ptrs	401E
-		_palette_bank_ptrs	4039
-		_sprite_bank_ptrs	403C
-		_scene_bank_ptrs	405D
-		_collision_bank_ptrs	4078
-		_avatar_bank_ptrs	4093
-		_music_tracks	4096
-		_music_banks	409A
-		_Start_Adventure	409C
-		_Update_Adventure	40B1
-		_Start_Platform	46B1
-		_Update_Platform	477D
-		_Start_PointNClick	535D
-		_Update_PointNClick	5386
-		_Start_Shmup	5641
-		_Update_Shmup	56D1
-		_Start_TopDown	5C73
-		_Update_TopDown	5C88
+		_background_bank_ptrs	4009
+		_background_attr_bank_ptrs	4027
+		_palette_bank_ptrs	4048
+		_sprite_bank_ptrs	404B
+		_scene_bank_ptrs	406C
+		_collision_bank_ptrs	408D
+		_avatar_bank_ptrs	40AE
+		_music_tracks	40B1
+		_music_banks	40B5
+		_Start_Adventure	40B7
+		_Update_Adventure	40CC
+		_Start_Platform	46CC
+		_Update_Platform	4798
+		_Start_PointNClick	5378
+		_Update_PointNClick	53A1
+		_Start_Shmup	565C
+		_Update_Shmup	56EC
+		_Start_TopDown	5C8E
+		_Update_TopDown	5CA3
 AREA _SFR0
 	RADIX HEX
 	BASE 0000
@@ -1457,120 +1457,120 @@ AREA .  .ABS.
 	GLOBALS
 		.__.ABS.	0000
 MODULES
-	FILE C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
+	FILE C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Actor_a.o
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Actor_b.o
-		NAME C__Users_greer_AppData_Local_Tem»ŞSº»ŞSº²×=² }¨)p}ğ}ğ²×JÅĞvÿV¨
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Actor.o
-		NAME C__Users_greer_AppData_Local_TemÛÓSºÛÓSºÒÚ=²@p¨ypxpğxpğÒÚJÅdw‹V
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/asm.macros.o
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/BankData.o
-		NAME C__Users_greer_AppData_Local_Tem;ÖSº;ÖSº2ß=² u¨Å×p˜uğ˜uğ2ßJÅÀwïW
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/BankManager.o
-		NAME C__Users_greer_AppData_Local_Tem{éSº{éSºrà=²àJ¨ipØJğØJğràJÅ(p÷W
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Camera_a.o
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Camera.o
-		NAME C__Users_greer_AppData_Local_Tem[ĞSº[ĞSºRÙ=²Às¨/¿pøsğøsğRÙJÅ4wÛV
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Collision.o
-		NAME C__Users_greer_AppData_Local_Temû×Sºû×SºòŞ=²`t¨~pXtğXtğòŞJÅøwW
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Core_Main.o
-		NAME C__Users_greer_AppData_Local_Tem×Sº×SºŞ=²€t¨+p¸tğ¸tğŞJÅìw3W
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/DataManager.o
-		NAME C__Users_greer_AppData_Local_Tem“¤ûº“¤ûºš­•²
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/FadeManager_b.o
-		NAME C__Users_greer_AppData_Local_TemS¤ûºS¤ûºZ­•²È
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/FadeManager.o
-		NAME C__Users_greer_AppData_Local_Tem¦ûº¦ûº¯•²ˆ
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/gbt_player_bank1.o
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/gbt_player.o
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Input.o
-		NAME C__Users_greer_AppData_Local_Tems¢ûºs¢ûºz«•²è
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Math.o
-		NAME C__Users_greer_AppData_Local_Tem“£ûº“£ûºšª•²
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/MusicManager.o
-		NAME C__Users_greer_AppData_Local_TemS¿ûºS¿ûºZ¶•²È
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Palette.o
-		NAME C__Users_greer_AppData_Local_TemSºûºSºûºZ³•²È
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Projectiles_b.o
-		NAME C__Users_greer_AppData_Local_TemÓ£UºÓ£UºÚª;²H
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Projectiles.o
-		NAME C__Users_greer_AppData_Local_Tem[3\º[3\ºR:2²À§rğøÿøÿR:EÅ‹>W
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner_b.o
-		NAME C__Users_greer_AppData_Local_Tem»2\º»2\º²;2² ‘§}8‘ÿ‘ÿ²;EÅP‹âW
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner.o
-		NAME C__Users_greer_AppData_Local_Tem;4\º;4\º2=2² —§=˜—ÿ˜—ÿ2=EÅ€‹ÒW
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Scroll_a.o
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Scroll_b.o
-		NAME C__Users_greer_AppData_Local_Tem›=\º›=\º’42²
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Scroll.o
-		NAME C__Users_greer_AppData_Local_Tem{<\º{<\ºr52²àŸ§ìmØŸÿØŸÿr5EÅˆŠÚV8
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Sprite_b.o
-		NAME C__Users_greer_AppData_Local_Tem;=\º;=\º242² §Ïj˜ÿ˜ÿ24EÅ ŠòV
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Sprite.o
-		NAME C__Users_greer_AppData_Local_Temû?\ºû?\ºò62²`œ§†XœÿXœÿò6EÅøŠŠV
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Stack.o
-		NAME C__Users_greer_AppData_Local_Tem›>\º›>\º’72²
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Trigger_b.o
-		NAME C__Users_greer_AppData_Local_Tem[4\º[4\ºR=2²À—§l(ø—ÿø—ÿR=EÅ´‹ŞW
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Trigger.o
-		NAME C__Users_greer_AppData_Local_Tem;3\º;3\º2:2² §i˜ÿ˜ÿ2:EÅ`‹2W
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/UI_b.o
-		NAME C__Users_greer_AppData_Local_Tem»1\º»1\º²82² ’§á’ÿ’ÿ²8EÅ0‹BWE
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/UI.o
-		NAME C__Users_greer_AppData_Local_Tem5\º5\º<2²€–§óQ¸–ÿ¸–ÿ<EÅ¬‹öWÔ
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/bank_6.o
+	FILE C:/tmp/_gbsbuild/obj/Actor_a.o
+	FILE C:/tmp/_gbsbuild/obj/Actor_b.o
+		NAME C__tmp_lcc105561
+	FILE C:/tmp/_gbsbuild/obj/Actor.o
+		NAME C__tmp_lcc62081
+	FILE C:/tmp/_gbsbuild/obj/asm.macros.o
+	FILE C:/tmp/_gbsbuild/obj/BankData.o
+		NAME C__tmp_lcc118921
+	FILE C:/tmp/_gbsbuild/obj/BankManager.o
+		NAME C__tmp_lcc157241
+	FILE C:/tmp/_gbsbuild/obj/Camera_a.o
+	FILE C:/tmp/_gbsbuild/obj/Camera.o
+		NAME C__tmp_lcc173121
+	FILE C:/tmp/_gbsbuild/obj/Collision.o
+		NAME C__tmp_lcc21801
+	FILE C:/tmp/_gbsbuild/obj/Core_Main.o
+		NAME C__tmp_lcc157481
+	FILE C:/tmp/_gbsbuild/obj/DataManager.o
+		NAME C__tmp_lcc130881
+	FILE C:/tmp/_gbsbuild/obj/FadeManager_b.o
+		NAME C__tmp_lcc103561
+	FILE C:/tmp/_gbsbuild/obj/FadeManager.o
+		NAME C__tmp_lcc140441
+	FILE C:/tmp/_gbsbuild/obj/gbt_player_bank1.o
+	FILE C:/tmp/_gbsbuild/obj/gbt_player.o
+	FILE C:/tmp/_gbsbuild/obj/Input.o
+		NAME C__tmp_lcc137481
+	FILE C:/tmp/_gbsbuild/obj/Math.o
+		NAME C__tmp_lcc134521
+	FILE C:/tmp/_gbsbuild/obj/MusicManager.o
+		NAME C__tmp_lcc22321
+	FILE C:/tmp/_gbsbuild/obj/Palette.o
+		NAME C__tmp_lcc118201
+	FILE C:/tmp/_gbsbuild/obj/Projectiles_b.o
+		NAME C__tmp_lcc129361
+	FILE C:/tmp/_gbsbuild/obj/Projectiles.o
+		NAME C__tmp_lcc37721
+	FILE C:/tmp/_gbsbuild/obj/ScriptRunner_b.o
+		NAME C__tmp_lcc119441
+	FILE C:/tmp/_gbsbuild/obj/ScriptRunner.o
+		NAME C__tmp_lcc27001
+	FILE C:/tmp/_gbsbuild/obj/Scroll_a.o
+	FILE C:/tmp/_gbsbuild/obj/Scroll_b.o
+		NAME C__tmp_lcc165761
+	FILE C:/tmp/_gbsbuild/obj/Scroll.o
+		NAME C__tmp_lcc127681
+	FILE C:/tmp/_gbsbuild/obj/Sprite_b.o
+		NAME C__tmp_lcc92681
+	FILE C:/tmp/_gbsbuild/obj/Sprite.o
+		NAME C__tmp_lcc156161
+	FILE C:/tmp/_gbsbuild/obj/Stack.o
+		NAME C__tmp_lcc28041
+	FILE C:/tmp/_gbsbuild/obj/Trigger_b.o
+		NAME C__tmp_lcc34121
+	FILE C:/tmp/_gbsbuild/obj/Trigger.o
+		NAME C__tmp_lcc15961
+	FILE C:/tmp/_gbsbuild/obj/UI_b.o
+		NAME C__tmp_lcc49161
+	FILE C:/tmp/_gbsbuild/obj/UI.o
+		NAME C__tmp_lcc9881
+	FILE C:/tmp/_gbsbuild/obj/bank_6.o
 		NAME bank_6
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/bank_7.o
+	FILE C:/tmp/_gbsbuild/obj/bank_7.o
 		NAME bank_7
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/data_ptrs.o
-		NAME C__Users_greer_AppData_Local_Tem{;\º{;\ºr22²à˜§%{Ø˜ÿØ˜ÿr2EÅhŠ:Vô#
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/main.o
-		NAME C__Users_greer_AppData_Local_Tem»%\º»%\º²,2² †§îç†ÿ†ÿ²,EÅ°‰ÂU
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Adventure.o
-		NAME C__Users_greer_AppData_Local_Tem›"\º›"\º’+2²
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Platform.o
-		NAME C__Users_greer_AppData_Local_Tem9\º9\º02²€š§Ö ¸šÿ¸šÿ0EÅ,ŠvV
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/PointNClick.o
-		NAME C__Users_greer_AppData_Local_Tem['\º['\ºR.2²À„§Buø„ÿø„ÿR.EÅ”‰¾Uà.
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/Shmup.o
-		NAME C__Users_greer_AppData_Local_Tem;8\º;8\º212² ›§mm˜›ÿ˜›ÿ21EÅ
-	FILE C:/Users/greer/AppData/Local/Temp/_gbsbuild/obj/TopDown.o
-		NAME C__Users_greer_AppData_Local_Tem»;\º»;\º²22² ˜§šV˜ÿ˜ÿ²2EÅpŠV
+	FILE C:/tmp/_gbsbuild/obj/data_ptrs.o
+		NAME C__tmp_lcc163321
+	FILE C:/tmp/_gbsbuild/obj/main.o
+		NAME C__tmp_lcc104881
+	FILE C:/tmp/_gbsbuild/obj/Adventure.o
+		NAME C__tmp_lcc47481
+	FILE C:/tmp/_gbsbuild/obj/Platform.o
+		NAME C__tmp_lcc167801
+	FILE C:/tmp/_gbsbuild/obj/PointNClick.o
+		NAME C__tmp_lcc113481
+	FILE C:/tmp/_gbsbuild/obj/Shmup.o
+		NAME C__tmp_lcc173241
+	FILE C:/tmp/_gbsbuild/obj/TopDown.o
+		NAME C__tmp_lcc123321
 LIBRARIES
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_prop.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE asm_string.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE rand.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE mv_spr.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE bgb_emu.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE div.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE mul.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_wi_t.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_data.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE pad.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE __sdcc_call_hl.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_spr.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE strcat.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE strlen.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE cpy_data.o
-	LIBRARY C:\Users\greer\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY C:\tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_xy_t.o
 USERBASEDEF
 	_CODE=0x0200
